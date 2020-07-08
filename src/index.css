@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
+body{
+    font-family: 'Poppins',
+     sans-serif;
+     padding: 0;
+     margin: 0;
+     background-color: #eee;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 70px;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 1px #eee;
+    margin: 11px auto;
+
+}
+form{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+form input{
+    width: 90%;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+button{
+    background-color: crimson;
+    color: #fff;
+    border: 1px solid rgb(192, 64,89);
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+
+
+}
+
+.cardImages {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px,auto);
+}
+
+.ImgBlock{
+    flex-basis: 30%;
+    background: #fff;
+}
+.details{
+    padding: 10px;
+}
+.cardImages img{
+    width: 100%;
+}
